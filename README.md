@@ -58,7 +58,7 @@ Configuration of descriptor families and optional data enrichment can be configu
 
 ## Citation
 
-See the [citation.cff](`citation.cff`) file for more information on how to cite this repository and to export it to different formats (IEEE, BibTeX, etc)
+See the [citation.cff](`citation.cff`) file for more information on how to cite this repository and to export it to different formats (APA, BibTeX, etc)
 
 ## License
 
