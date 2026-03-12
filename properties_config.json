@@ -1,0 +1,64 @@
+{
+  "enabled": true,
+
+  "pubchem": {
+    "enabled": true,
+    "properties": [
+      "MolecularWeight",
+      "XLogP",
+      "MolecularFormula",
+      "IUPACName"
+    ]
+  },
+
+  "rdkit": {
+    "enabled": true,
+    "families": {
+      "estate": true,
+      "qed_physchem": true,
+      "charge": true,
+      "fingerprint_density": true,
+      "topological_indices": true,
+      "connectivity_kappa": true,
+      "surface_polarity": true,
+      "vsa_estate": false,
+      "counts_basic": true,
+      "ring_counts": true,
+      "hydrogen_bonding": true,
+      "functional_groups": true
+    },
+    "fingerprints": {
+      "morgan": {
+        "enabled": true,
+        "radius": 2,
+        "nbits": 2048,
+        "format": "bitstring"
+      },
+      "maccs": {
+        "enabled": true,
+        "format": "bitstring"
+      }
+    },
+    "include_descriptors": [],
+    "exclude_descriptors": []
+  },
+
+  "mordred": {
+    "enabled": false,
+    "use_all": false,
+    "families": {
+      "constitutional": true,
+      "adjacency_matrix": false,
+      "autocorrelation": false,
+      "topological": true,
+      "charge": false,
+      "surface": false,
+      "ring": true,
+      "fragment": true,
+      "estate": true,
+      "geometry_3d": false
+    },
+    "include_descriptors": [],
+    "exclude_descriptors": []
+  }
+}
