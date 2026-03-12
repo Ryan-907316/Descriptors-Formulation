@@ -14,7 +14,7 @@ A general-purpose Python script that resolves chemical names to SMILES structure
 
 ## Requirements
 
-The list of dependencies can be found in `requirements.txt`.
+The list of dependencies can be found in [requirements.txt](`requirements.txt`).
 
 Mandatory dependencies:
 
