@@ -1,0 +1,6 @@
+pandas
+requests
+rdkit
+tqdm
+mordred
+thermo
