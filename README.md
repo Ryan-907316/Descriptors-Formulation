@@ -3,7 +3,7 @@
 A general-purpose Python script that resolves chemical names to SMILES structures and generates configurable molecular descriptor datasets for QSAR/QSPR workflows. Descriptor families are toggleable via JSON configuration, and results are exported to a structured Excel workbook. Built on RDKit with optional Mordred and thermo integration.
 
 ## Features
-`
+
 - Chemical name to SMILES resolution
 - RDKit descriptor generation
 - Optional Mordred descriptor calculation
