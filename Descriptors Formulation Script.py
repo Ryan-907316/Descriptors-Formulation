@@ -93,7 +93,7 @@ DEFAULT_STRUCTURE_CONFIG = {
         "exclude_descriptors": []
     },
     "external_properties": {
-        "enabled": False,
+        "enabled": True,
         "pubchem_rest": {
             "enabled": True,
             "properties": []
