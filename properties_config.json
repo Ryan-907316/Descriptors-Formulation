@@ -60,5 +60,25 @@
     },
     "include_descriptors": [],
     "exclude_descriptors": []
+  },
+
+  "external_properties": {
+    "enabled": true,
+    "pubchem_rest": {
+      "enabled": false,
+      "properties": []
+    },
+    "pubchem_pug_view": {
+      "enabled": true,
+      "extract_boiling_point": true,
+      "extract_vapour_pressure": true,
+      "extract_density": true,
+      "extract_water_solubility": true
+    },
+    "thermo": {
+      "enabled": true,
+      "temperature_K": 298.15,
+      "pressure_Pa": 101325
+    }
   }
 }
